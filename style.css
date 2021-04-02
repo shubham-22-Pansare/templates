@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------Header Section---------------- */
+#header {
+  background-image: url(./images.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  top: 0;
+  padding-bottom: 40%;
+}
+.header-title {
+  margin-top: 25%;
+  padding-left: 72%;
+}
+.header-title h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+.header-title span {
+  color: #f7f7f7;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px;
+  margin: 2px;
+  border-right: 2px solid #fff;
+}
+.book {
+  background: #fff;
+  width: 70%;
+  margin-left: 10%;
+  padding-top: -30%;
+}
+.title {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  padding-left: inherit;
+  color: #2f4676;
+}
+.book .btn {
+  color: #fff;
+  background: #fb792b;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+/* -------------Holiday Section--------------- */
+#holiday {
+  position: relative;
+  background: #f7f7f7;
+  text-align: center;
+}
+.holiday .section-title h5 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.holiday .card {
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.holiday .card-body .card-title {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 15px;
+  margin: auto;
+  text-transform: capitalize;
+}
+.holiday .card-text {
+  text-align: justify;
+  padding: 5px;
+}
+.holiday .btn {
+  background: transparent;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 700;
+}
